@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="shortcut icon" href="/favicon.png" />
+    <title>My Story</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script type="module" src="/scripts/index.js"></script>
+  </head>
+  
+  <body>
+    <a href="#main-content" class="skip-link">Skip to content</a>
+    <header>
+      <div class="main-header container">
+        <a class="brand-name" href="#/">Dicoding Story</a>
+        <nav id="navigation-drawer" class="navigation-drawer">
+          <ul id="nav-list" class="nav-list">
+            <li><a href="/"><i class="fas fa-home"></i> Beranda </a></li>
+            <li><a href="/bookmarks"><i class="fas fa-bookmarks"></i> Bookmarks </a></li>
+            <li><a href="/add-story"><i class="fas fa-plus"></i> Add Story </a></li>
+            <li><a href="/about"><i class="fas fa-info-circle"></i> About </a></li>
+            <li><a href="/login"><i class="fas fa-sign-in-alt"></i> Login </a></li>
+            <li><a href="/register"><i class="fas fa-user-plus"></i> Register </a></li>
+          </ul>
+        </nav>
+        <button id="drawer-button" class="drawer-button">☰</button>
+      </div>
+    </header>
+    <main id="main-content" class="main-content" tabindex="0"></main>
+
+    <footer>
+      <p>
+        &copy; 2025 Dicoding Story. All rights reserved.
+      </p>
+    </footer>
+    <script type="module" src="/scripts/skip-link.js"></script>
+  </body>
+</html>

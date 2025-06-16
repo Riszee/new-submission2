@@ -1,0 +1,3 @@
+Map Service: OpenStreetMap
+Attribution: © OpenStreetMap contributors
+Deployment App URL: https://intermediate-sub-2.netlify.app/
